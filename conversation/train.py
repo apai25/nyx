@@ -52,4 +52,4 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 
 model.fit(x=x_train, y=y_train, epochs=1000, batch_size=32)
 
-model.save('model', save_format='tf')
+model.save('conversation/save/model', save_format='tf')
