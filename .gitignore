@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__
+conversation/.DS_Store
+conversation/__pycache__
+conversation/data/.DS_Store
+conversation/data/__pycache__
+conversation/save/.DS_Store
+conversation/save/__pycache__

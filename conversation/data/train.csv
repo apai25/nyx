@@ -1,0 +1,74 @@
+patterns,tag
+hey,greeting
+hi,greeting
+is anyone there?,greeting
+hello,greeting
+good day,greeting
+hiii,greeting
+Nice to meet you!,greeting
+Wassup,greeting
+It's great seeing you today,greeting
+cya,goodbye
+see you later,goodbye
+goodbye,goodbye
+i am leaving,goodbye
+good day friend!,goodbye
+tata,goodbye
+bye,goodbye
+bye-bye,goodbye
+Alright goodbye,goodbye
+whats up,question
+how are you?,question
+how do you feel,question
+how old,age
+what is your age,age
+how old are you,age
+age?,age
+What's going on right now?,doing
+whats up?,doing
+what is you name,name
+what should I call you?,name
+what's your name?,name
+who are you,name
+what can I call you?,name
+name,name
+I am feeling good,fine
+I am good,fine
+I am fine,fine
+I am feeling okay,fine
+I am okay,fine
+I am better now,fine
+I want to talk to someone,available
+when are you guys open,available
+what are your hours,available
+are you busy,available
+can you help me?,available
+Are you available?,available
+Free,available
+busy,available
+can we talk,available
+are you there?,available
+you there?,available
+someone there?,available
+you free now?,available
+I had a break up,person-problem
+She left me,person-problem
+He left me,person-problem
+She cheated on me,person-problem
+He left me,person-problem
+He cheated on me,person-problem
+Me and him don't get along anymore,person-problem
+I got fired,exam
+I did not get selected,exam
+I failed my exam,exam
+Fail,exam
+I got rejected,exam
+I am having issues,negative_feel
+I am in trouble,negative_feel
+Please help me,negative_feel
+I want to die,negative_feel
+I am feeling suicidal,negative_feel
+I just feel numb,negative_feel
+I am not feeling good,negative_feel
+I am in trouble,negative_feel
+I can't do this anymore. I don't know what I'm doing,negative_feel

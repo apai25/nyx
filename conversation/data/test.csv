@@ -1,0 +1,74 @@
+patterns,tag
+Hi nice to meet you,greeting
+hi good to see you,greeting
+Hey nyx u there,greeting
+hey man i wanna talk,greeting
+good morning,greeting
+Hi there!,greeting  
+Long time no see!,greeting
+It's been a while,greeting
+It's great seeing you today,greeting
+alright bye bye,goodbye
+I'll see you tomorrow,goodbye
+bye!,goodbye
+okay im going to go now,goodbye
+until next time,goodbye
+bye dude,goodbye
+alright man ill see you tomorrow,goodbye
+i have to go,goodbye
+we can talk later bye,goodbye
+How are you doing today,question
+Have you been doing well lately,question
+how do you feel,question
+Whats your age right now,age
+age?,age
+how old,age
+i was wondering how old you are,age
+what are you doing right now?,doing
+whats happening?,doing
+what would you like to be called,name
+what would you like me to call you,name
+what is your name,name
+and you are?,name
+hi mr.?,name
+so whats your name?,name
+I'm doing okay today,fine
+I'm not doing so shabby,fine
+Im fine,fine
+I'm doing great,fine
+I feel pretty good today,fine
+Im actually really happy today,fine
+I want someone to talk to,available
+I want to talk with you,available
+im free right now,available
+im not busy wanna talk,available
+can you help me right now,available
+Are you available right now,available
+Free,available
+busy,available
+I wanna talk,available
+are you there?,available
+you there?,available
+hey you there,available
+you free now,available
+I had a break up,person-problem
+She left me and i want to cry,person-problem
+He left me and i want to cry,person-problem
+She cheated on me and I hate her,person-problem
+He left me alone,person-problem
+He cheated on me,person-problem
+Me and him don't get along anymore,person-problem
+I got fired,exam
+My teacher failed me,exam
+I failed my exam,exam
+I got an F,exam
+I failed,exam
+I dont feel happy anymore,negative_feel
+I am not worth it,negative_feel
+I need help,negative_feel
+I dont want to live anymore,negative_feel
+I am feeling suicidal,negative_feel
+I dont feel anything anymore,negative_feel
+I need serious help,negative_feel
+I am in lots of trouble,negative_feel
+I dont know what i am doing with my life,negative_feel
