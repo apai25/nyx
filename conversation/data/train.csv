@@ -1,74 +1,74 @@
 patterns,tag
-hey,greeting
-hi,greeting
-is anyone there?,greeting
-hello,greeting
-good day,greeting
-hiii,greeting
-Nice to meet you!,greeting
-Wassup,greeting
-It's great seeing you today,greeting
-cya,goodbye
-see you later,goodbye
-goodbye,goodbye
-i am leaving,goodbye
-good day friend!,goodbye
-tata,goodbye
-bye,goodbye
-bye-bye,goodbye
-Alright goodbye,goodbye
-whats up,question
-how are you?,question
-how do you feel,question
-how old,age
-what is your age,age
-how old are you,age
-age?,age
-What's going on right now?,doing
-whats up?,doing
-what is you name,name
-what should I call you?,name
-what's your name?,name
-who are you,name
-what can I call you?,name
-name,name
-I am feeling good,fine
-I am good,fine
-I am fine,fine
-I am feeling okay,fine
-I am okay,fine
-I am better now,fine
-I want to talk to someone,available
-when are you guys open,available
-what are your hours,available
-are you busy,available
-can you help me?,available
-Are you available?,available
-Free,available
-busy,available
-can we talk,available
-are you there?,available
-you there?,available
-someone there?,available
-you free now?,available
-I had a break up,person-problem
-She left me,person-problem
-He left me,person-problem
-She cheated on me,person-problem
-He left me,person-problem
-He cheated on me,person-problem
-Me and him don't get along anymore,person-problem
-I got fired,exam
-I did not get selected,exam
-I failed my exam,exam
-Fail,exam
-I got rejected,exam
-I am having issues,negative_feel
-I am in trouble,negative_feel
-Please help me,negative_feel
-I want to die,negative_feel
-I am feeling suicidal,negative_feel
-I just feel numb,negative_feel
-I am not feeling good,negative_feel
-I am in trouble,negative_feel
-I can't do this anymore. I don't know what I'm doing,negative_feel
+hey,0
+hi,0
+is anyone there?,0
+hello,0
+good day,0
+hiii,0
+Nice to meet you!,0
+Wassup,0
+It's great seeing you today,0
+cya,1
+see you later,1
+goodbye,1
+i am leaving,1
+good day friend!,1
+tata,1
+bye,1
+bye-bye,1
+Alright 1,1
+whats up,2
+how are you?,2
+how do you feel,2
+how old,3
+what is your age,3
+how old are you,3
+age?,3
+What's going on right now?,4
+whats up?,4
+what is your name,5
+what should I call you?,5
+what's your name?,5
+who are you,5
+what can I call you?,5
+name?,5
+I am feeling good,6
+I am good,6
+I am fine,6
+I am feeling okay,6
+I am okay,6
+I am better now,6
+I want to talk to someone,7
+when are you guys open,7
+what are your hours,7
+are you busy,7
+can you help me?,7
+Are you available?,7
+Free,7
+busy,7
+can we talk,7
+are you there?,7
+you there?,7
+someone there?,7
+you free now?,7
+I had a break up,8
+She left me,8
+He left me,8
+She cheated on me,8
+He left me,8
+He cheated on me,8
+Me and him don't get along anymore,8
+I got fired,9
+I did not get selected,9
+I failed my exam,9
+Fail,9
+I got rejected from college,9
+I am having issues,10
+I am in trouble,10
+Please help me,10
+I want to die,10
+I am feeling suicidal,10
+I just feel numb,10
+I am not feeling good,10
+I am in trouble,10
+I can't do this anymore. I don't know what I'm 4,10

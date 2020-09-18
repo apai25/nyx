@@ -1,74 +1,74 @@
 patterns,tag
-Hi nice to meet you,greeting
-hi good to see you,greeting
-Hey nyx u there,greeting
-hey man i wanna talk,greeting
-good morning,greeting
-Hi there!,greeting  
-Long time no see!,greeting
-It's been a while,greeting
-It's great seeing you today,greeting
-alright bye bye,goodbye
-I'll see you tomorrow,goodbye
-bye!,goodbye
-okay im going to go now,goodbye
-until next time,goodbye
-bye dude,goodbye
-alright man ill see you tomorrow,goodbye
-i have to go,goodbye
-we can talk later bye,goodbye
-How are you doing today,question
-Have you been doing well lately,question
-how do you feel,question
-Whats your age right now,age
-age?,age
-how old,age
-i was wondering how old you are,age
-what are you doing right now?,doing
-whats happening?,doing
-what would you like to be called,name
-what would you like me to call you,name
-what is your name,name
-and you are?,name
-hi mr.?,name
-so whats your name?,name
-I'm doing okay today,fine
-I'm not doing so shabby,fine
-Im fine,fine
-I'm doing great,fine
-I feel pretty good today,fine
-Im actually really happy today,fine
-I want someone to talk to,available
-I want to talk with you,available
-im free right now,available
-im not busy wanna talk,available
-can you help me right now,available
-Are you available right now,available
-Free,available
-busy,available
-I wanna talk,available
-are you there?,available
-you there?,available
-hey you there,available
-you free now,available
-I had a break up,person-problem
-She left me and i want to cry,person-problem
-He left me and i want to cry,person-problem
-She cheated on me and I hate her,person-problem
-He left me alone,person-problem
-He cheated on me,person-problem
-Me and him don't get along anymore,person-problem
-I got fired,exam
-My teacher failed me,exam
-I failed my exam,exam
-I got an F,exam
-I failed,exam
-I dont feel happy anymore,negative_feel
-I am not worth it,negative_feel
-I need help,negative_feel
-I dont want to live anymore,negative_feel
-I am feeling suicidal,negative_feel
-I dont feel anything anymore,negative_feel
-I need serious help,negative_feel
-I am in lots of trouble,negative_feel
-I dont know what i am doing with my life,negative_feel
+Hi nice to meet you,0
+hi good to see you,0
+Hey nyx u there,0
+hey man i wanna talk,0
+good morning,0
+Hi there!,0  
+Long time no see!,0
+It's been a while,0
+It's great seeing you today,0
+alright bye bye,1
+I'll see you tomorrow,1
+bye!,1
+okay im going to go now,1
+until next time,1
+bye dude,1
+alright man ill see you tomorrow,1
+i have to go,1
+we can talk later bye,1
+How are you doing today,2
+Have you been doing well lately,2
+how do you feel,2
+Whats your age right now,3
+age?,3
+how old,3
+i was wondering how old you are,3
+what are you doing right now?,4
+whats happening?,4
+what would you like to be called,5
+what would you like me to call you,5
+what is your name,5
+and you are?,5
+hi mr.?,5
+so whats your name?,5
+I'm doing okay today,6
+I'm not doing so shabby,6
+Im fine,6
+I'm doing great,6
+I feel pretty good today,6
+Im actually really happy today,6
+I want someone to talk to,7
+I want to talk with you,7
+im free right now,7
+im not busy wanna talk,7
+can you help me right now,7
+Are you available right now,7
+Free,7
+busy,7
+I wanna talk,7
+are you there?,7
+you there?,7
+hey you there,7
+you free now,7
+I had a break up,8
+She left me and i want to cry,8
+He left me and i want to cry,8
+She cheated on me and I hate her,8
+He left me alone,8
+He cheated on me,8
+Me and him don't get along anymore,8
+I got fired,9
+My teacher failed me,9
+I failed my exam,9
+I got an F,9
+I failed,9
+I dont feel happy anymore,10
+I am not worth it,10
+I need help,10
+I dont want to live anymore,10
+I am feeling suicidal,10
+I dont feel anything anymore,10
+I need serious help,10
+I am in lots of trouble,10
+I dont know what i am doing with my life,10
