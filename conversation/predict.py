@@ -28,5 +28,4 @@ def predict(text):
     return prediction[0]
 
 text = str(input('Enter string:'))
-print(text)
 print(predict(text))
