@@ -20,10 +20,8 @@ def predict(text):
     text = text.split()
     text = [ps.stem(word) for word in text if word not in set(all_stopwords)]
     text = [' '.join(text)]
-    print(text)
     text = cv.transform(text)
     text = text.toarray()
-    print(text)
     prediction = np.argmax(model.predict(text), axis=-1)
     return prediction[0]
 
