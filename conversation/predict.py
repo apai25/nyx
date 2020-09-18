@@ -14,7 +14,6 @@ def predict(text):
     cv = pickle.load(open('conversation/save/count_vectorizer.pickle', 'rb'))
     ps = PorterStemmer()
     model = load_model('conversation/save/model')
-
     text = re.sub('[^a-zA-Z]', ' ', text)
     text = text.lower()
     text = text.split()
@@ -24,6 +23,3 @@ def predict(text):
     text = text.toarray()
     prediction = np.argmax(model.predict(text), axis=-1)
     return prediction[0]
-
-text = str(input('Enter string:'))
-print(predict(text))
