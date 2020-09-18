@@ -6,7 +6,9 @@ import nltk
 import pickle
 from nltk.corpus import stopwords
 
-test = pd.read_csv('conversation/data/test.csv')
+test = pd.read_csv('conversation/data/train.csv')
+print(test.head())
+
 x_test = test.iloc[:, 0].values
 y_test = test.iloc[:, 1].values
 
@@ -41,4 +43,6 @@ y_test = encoder.fit_transform(y_test)
 
 from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(y_test, predictions)
+print(y_test)
+print(predictions)
 print(f'Accuracy: {accuracy}')
