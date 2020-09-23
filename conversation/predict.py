@@ -8,13 +8,14 @@ import pickle
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-def predict(text):
+def predict(original_text):
     all_stopwords = stopwords.words('english')
     all_stopwords.remove('not')
     cv = pickle.load(open('conversation/save/count_vectorizer.pickle', 'rb'))
     ps = PorterStemmer()
     model = load_model('conversation/save/model')
-    text = re.sub('[^a-zA-Z]', ' ', text)
+    
+    text = re.sub('[^a-zA-Z]', ' ', original_text)
     text = text.lower()
     text = text.split()
     text = [ps.stem(word) for word in text if word not in set(all_stopwords)]
@@ -23,3 +24,6 @@ def predict(text):
     text = text.toarray()
     prediction = np.argmax(model.predict(text), axis=-1)
     return prediction[0]
+
+text = str(input('Enter here: '))
+print(predict(text))
