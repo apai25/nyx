@@ -27,7 +27,7 @@ for i in x_train:
 
 from sklearn.feature_extraction.text import CountVectorizer
 cv = CountVectorizer()
-x_train = cv.fit_transform(x_train)
+x_train = cv.fit_transform(corpus)
 pickle.dump(cv, open('conversation/save/count_vectorizer.pickle', 'wb'))
 
 x_train = x_train.toarray()
@@ -43,9 +43,10 @@ y_train = y_train.toarray()
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Sequential
 model = Sequential()
-model.add(Dense(units=8, activation='relu', input_shape=(x_train.shape[0], x_train.shape[1])))
-model.add(Dense(units=8, activation='relu'))
-model.add(Dense(units=8, activation='relu'))
+model.add(Dense(units=64, activation='relu', input_shape=(x_train.shape[0], x_train.shape[1])))
+model.add(Dense(units=64, activation='relu'))
+model.add(Dense(units=64, activation='relu'))
+model.add(Dense(units=64, activation='relu'))
 model.add(Dense(units=11, activation='softmax'))
 
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
